@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cuerpo y fondo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 238, 224);
+}
+
+/* Banner superior */
+#banner-top {
+    background-color: #28a745;
+    color: rgb(255, 228, 212);
+    padding: 10px 0;
+    text-align: center;
+}
+
+#banner-top img {
+    margin: 0 10px;
+    height: 40px; /* Ajustar el tamaño de los logos */
+
+}
+
+/* Navbar */
+.navbar {
+    background-color: #28a745;
+    padding: 15px 0;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-size: 50px;
+    font-family: "Metal Mania", system-ui;
+    margin-left: 80px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+    margin-right: 36px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Carousel */
+.carousel-item img {
+    box-shadow: 900px 0 15px -5px rgba(0, 0, 0, 0.3);
+    max-height: 500px;
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+/* Texto en el Carousel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 5px;
+    margin-top:10px;
+    
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+    font-family: "Kavoon";
+    font-weight: bold;
+    color: #fff;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.carousel-caption a {
+    background-color: #0c0c09;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.carousel-caption a:hover {
+    background-color: #e12900;
+}
+
+
+
+
+
+
+
+/* Estilo para la sección del menú */
+#menu-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.menu-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #dfffa91e;
+    color: #ee3e23;
+    border-color: #ee3e23;
+    border-radius: 5px;
+}
+
+.menu-button:hover {
+    background-color: #f03f20;
+    color: #ffffff;
+    transform: scale(1.1);
+    border-color: #ff4d00;
+}
+
+.menu-section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: #198754;
+    margin-bottom: 20px;
+}
+
+.menu-section div {
+    margin-bottom: 15px;
+}
+
+.menu-section h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #343a40;
+}
+
+.menu-section p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    color: #6c757d;
+    margin: 5px 0;
+}
+
+.menu-section strong {
+    font-size: 1.2rem;
+    color: #dc3545;
+}
+
+/* Transiciones suaves para mostrar las secciones */
+.menu-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.menu-section[style*="display: block"] {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Menú */
+h6 {
+    text-align: center;
+    
+    font-size: 80px;
+    
+    font-family: 'Great Vibes', cursive;;
+    margin-top: 75px;
+
+    
+    padding: 3px;
+    border-bottom: 2px solid #1e222b;
+    border-radius: 0;
+    background-color: rgb(255, 238, 224);
+}
+
+.TradicionesP {
+    width: 100%; /* Ancho del contenedor */
+    height: 650px; /* Altura deseada */
+    overflow: hidden; /* Oculta el contenido desbordado */
+    
+}
+
+
+.TradicionesP img{
+    width: 85%; 
+    border: 500px;
+    border-radius: 2px; 
+    margin: 20px 0;
+    padding: 20px;
+
+    height: 500px; /* Altura deseada */
+    overflow: hidden; /* Oculta el contenido fuera del contenedor */
+    position: relative;
+}
+
+.TradicionesP  {
+    text-align: center;
+    font-size: 47px;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: "Trirong", serif;
+    background-color: #b38051;
+    border-radius: 10px;
+    padding: 20px 0;
+    
+}
+
+x{
+    font-family: "Quicksand", sans-serif;
+
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #28a745;
+    color: rgb(255, 228, 212);
+    padding: 10px 0;
+}

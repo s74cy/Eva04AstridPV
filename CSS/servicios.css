@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cuerpo y fondo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 238, 224);
+}
+
+/* Banner superior */
+#banner-top {
+    background-color: #28a745;
+    color: rgb(255, 228, 212);
+    padding: 10px 0;
+    text-align: center;
+}
+
+#banner-top img {
+    margin: 0 10px;
+    height: 40px; /* Ajustar el tamaño de los logos */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #28a745;
+    padding: 15px 0;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-size: 50px;
+    font-family: "Metal Mania", system-ui;
+    margin-left: 80px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+    margin-right: 36px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Carousel */
+.carousel-item img {
+    box-shadow: 900px 0 15px -5px rgba(0, 0, 0, 0.3);
+    max-height: 500px;
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+/* Texto en el Carousel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top:10px;
+    
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+    font-family: "Kavoon";
+    font-weight: bold;
+    color: #fff;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.carousel-caption a {
+    background-color: #0c0c09;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.carousel-caption a:hover {
+    background-color: #e12900;
+}
+
+
+
+
+
+
+/* Servicios */
+h6 {
+    text-align: center;
+    margin: 50px;
+    margin-top: 150px;
+
+    color: #08775f;
+    font-size: 105px;
+    font-family: 'Great Vibes', cursive;;
+}
+
+.row-entregas {
+    max-width: 1200px; /* Ajustado para más espacio en la sección Servicios */
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+.col-md-4 {
+    flex: 1 1 calc(33.333% - 40px); /* Tres columnas con espacio uniforme */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 252, 245);
+}
+
+.col-md-4 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    
+}
+
+.card-body h5 {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 15px;
+}
+
+.card-body p{
+    font-size: 17px;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 33px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.card-body button{
+    background-color: #d28527;
+    color: rgb(255, 250, 216);
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.row h3{
+    font-size: 65px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-family: "Quicksand", sans-serif;
+    width: 100%;
+    text-align: center;
+    color: #6f3a0f;
+}
+
+.row p{
+    margin: 40px;
+    text-align: justify;
+    font-size: 22px;
+    color: #6f3a0f;
+    margin-bottom: 100px;
+}
+
+.row img{
+    max-width: 620px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+
+.pedidos_online {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.pedidos_online img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1px;
+}
+
+.pedidos_online .col-md-6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.pedidos_online h3 {
+    font-size: 65px;
+    margin: 40px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.pedidos_online p {
+    margin: 40px;
+}
+
+.pedidos_online button {
+    background-color: #5ab92e;
+    color: rgb(255, 250, 216);
+    border: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.pedidos_online button:hover {
+    background-color: #e4b424;
+    color: #0c0c09;
+}
+
+
+article h2 {
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(60, 40, 20);
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(80, 60, 40);
+}
+
+
+
+/* Fondo para secciones destacadas */
+.festin-t {
+    background-color: #fffbf6;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+    color: #333;
+    margin: 50px;
+    height: 600px;
+}
+
+.festin-t h3 {
+    font-size: 65px;
+    font-family: "Quicksand", sans-serif;
+    color: #eb5200;;
+    margin: 70px;
+
+}
+
+.festin-t p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.festin-t button {
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    background-color: #e22a00;
+    border-width: 3px;
+    border-color: #e22a00;
+}
+
+.festin-t button:hover {
+    background-color: #ffffff;
+    color: #e22a00;
+    border-width: 3px;
+    border-color: #e22a00;
+}
+
+.map-section {
+    padding: 20px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 100px;
+    width: 100%;
+    background-color: #4a2506d1;
+}
+
+.map-section h2{
+    font-size: 65px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.map-section iframe {
+    width: 100%;
+    max-width: 9000px;
+    border-radius: 10px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #28a745;
+    color: rgb(255, 228, 212);
+    padding: 10px 0;
+}
